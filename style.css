@@ -1,0 +1,33 @@
+@import url("https://googleapis.com")
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #d5e1ef;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.qr-image-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
